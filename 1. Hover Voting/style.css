@@ -1,0 +1,77 @@
+body {
+    background-color: #3273dc;
+    padding: 3%;
+}
+#container {
+    width: 100%;
+    aspect-ratio: 100 / 29;
+}
+.card {
+    position: relative;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 50px;
+    box-shadow: 0 7px 14px 0 rgb(51 51 51 / 50%), 0 3px 6px 0 rgb(51 51 51 / 8%);
+}
+h1 {
+    color: #3273dc;
+    font-size: 70px;
+    font-weight: normal;
+    line-height: 48px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+iframe {
+    text-align: center;
+    display: flex;
+    box-shadow: 0 7px 14px 0 rgb(50 115 220 / 50%), 0 3px 6px 0 rgb(50 115 220 / 8%);
+    border: 1px solid #d9e7f7;
+    border-radius: 16px 16px 16px 16px;
+    margin: 0 auto;
+    width: 39%;
+}
+.flex-button {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.flex-button .col {
+    flex: 1 1 20%;
+    max-width: 20%;
+    text-align: center;
+}
+.btn {
+    text-decoration: none;
+    padding: 20px 70px;
+    font-weight: 500;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn-blue {
+    background-color: #3273dc;
+}
+.btn-red {
+    background-color: #ee5a54;
+}
+.btn-blue:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    background-color: #2261c5;
+}
+.btn-red:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgb(50 50 93 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    background-color: #d8342e;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
